@@ -8,7 +8,7 @@ pipeline
     {
       steps {
         script {
-          sh "echo 'iam deepak's jenkins agent'>/tmp/deepu.txt"
+          sh "echo 'iam deepak\'s jenkins agent'>/tmp/deepu.txt"
                }
             }
     }
